@@ -6,7 +6,8 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"sample/article"
+
+	article "github.com/bxcodec/sample-client-grpc/article_grpc"
 
 	"google.golang.org/grpc"
 )

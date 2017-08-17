@@ -1,5 +1,5 @@
 syntax = "proto3";
-package article ;
+package article_grpc ;
 import "google/protobuf/timestamp.proto";
 
 service ArticleHandler {
