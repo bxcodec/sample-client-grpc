@@ -1,0 +1,11 @@
+package: github.com/bxcodec/sample-client-grpc
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+  - ptypes/timestamp
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: ^1.9.2
